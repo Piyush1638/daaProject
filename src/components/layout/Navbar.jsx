@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Itachi from "/itachi.png";
 
 const Navbar = () => {
   return (
-    <nav className='p-4 w-full  bg-black-indigo'>
-        <h1 className='font-bold text-2xl font-mono text-slate-200'>Pathfinding Prowess</h1>
+    <nav className="p-4 w-full  bg-black-indigo">
+      <img className="h-30 w-40" src={Itachi} alt="brand logo" />
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
